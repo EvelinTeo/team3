@@ -49,6 +49,7 @@ public class TodoListDB {
 		System.out.println(sdf.format( tmpDate));
 	}
 	
+
 	public void printList()
 	{
 	
@@ -57,5 +58,6 @@ public class TodoListDB {
 			System.out.println("Task id: " + mDB.get(key).getID());
 			System.out.println("Task Msg: " + mDB.get(key).getMsg());
 		}
+
 	}
 }
